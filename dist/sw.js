@@ -383,10 +383,12 @@ class DDXWorker {
         // URL (which points to the .html file).  Without this, ../../
         // in built asset paths resolves one level too far up.
         const body = await response.arrayBuffer();
+        const hdrs = new Headers(response.headers);
+        hdrs.set("Content-Type", "text/html; charset=utf-8");
         return new Response(body, {
           status: response.status,
           statusText: response.statusText,
-          headers: response.headers,
+          headers: hdrs,
         });
       }
       // Non-ok but not a network error — return as-is (e.g. 404)
@@ -400,10 +402,12 @@ class DDXWorker {
         );
         // Same wrapping for cached responses
         const body = await cached.arrayBuffer();
+        const hdrs = new Headers(cached.headers);
+        hdrs.set("Content-Type", "text/html; charset=utf-8");
         return new Response(body, {
           status: cached.status,
           statusText: cached.statusText,
-          headers: cached.headers,
+          headers: hdrs,
         });
       }
 
