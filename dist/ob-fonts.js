@@ -384,7 +384,6 @@
     },
     config: obfuscationConfig2,
     setupClipboardInterceptor
-    // Expose for manual initialization if needed
   };
   async function waitForFontsToLoad() {
     if ("fonts" in document) {
