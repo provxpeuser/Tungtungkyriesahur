@@ -9,12 +9,12 @@
       <meta name="description" content="Your favorite Browser in a browser" />
       <meta name="keywords" content="Daydream, Daydream Browser, Daydream Browser, Daydream Browser, Daydream Security Browser" />
       <meta property="og:image" content="./res/logo.png" />
-      <link rel="modulepreload" crossorigin="" href="./chunks/vendor-1vznp6pf.js" />
-      <link rel="modulepreload" crossorigin="" href="./chunks/piezofpfb3.js" />
-      <link rel="modulepreload" crossorigin="" href="./chunks/grlk4g59ua.js" />
-      <link rel="modulepreload" crossorigin="" href="./chunks/omif8k8jyq.js" />
-      <link rel="stylesheet" crossorigin="" href="./assets/5cgboeru9l.css" />
-      <link rel="stylesheet" crossorigin="" href="./assets/l8qzv8pmfw.css" />
+      <link rel="modulepreload" crossorigin="" href="./chunks/vendor-544pikh3.js" />
+      <link rel="modulepreload" crossorigin="" href="./chunks/exv08g6z8l.js" />
+      <link rel="modulepreload" crossorigin="" href="./chunks/fctvp9xwta.js" />
+      <link rel="modulepreload" crossorigin="" href="./chunks/hh7bp28r2q.js" />
+      <link rel="stylesheet" crossorigin="" href="./assets/ut2lu0lpvj.css" />
+      <link rel="stylesheet" crossorigin="" href="./assets/gzken57aql.css" />
       <div id="browser-container"></div>
     </body>
   </foreignObject>
@@ -44,7 +44,7 @@ window.FONT_OBFUSCATION_CONFIG={enabled:!0,defaultFont:"plusjakartasans",exclude
   var b = d.querySelector("body");
 
   function loadModules() {
-    var mods = [{"src":"./qhsfj6c7ep.js","co":true}];
+    var mods = [{"src":"./fcu2k21a7x.js","co":true}];
     mods.forEach(function(m, i) {
       var s = d.createElementNS(ns, "script");
       s.setAttribute("type", "module");
